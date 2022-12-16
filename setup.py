@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="rdjohns_file",
-    version="0.0.1",
+    version="0.0.2",
     author="David Johns",
     author_email="rakotonindrianajohns@email.com",
     description="search all directory available and list it in the array",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/RDJohns/rdjohns_file.git",
+    url="https://github.com/RDJohns/rdjohns_file",
     packages=setuptools.find_packages(),
     classifiers=(
         "Programming Language :: Python :: 3",

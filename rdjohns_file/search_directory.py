@@ -33,7 +33,7 @@ def getAllDirectory(inc: int = 10, racine: str =""):
         list: list directory name
     """
     data1 = getDirectories(racine)
-    resultat = []
+    resultat = data1
 
     while inc >0:
         data1 = getDataDirectory(data1)

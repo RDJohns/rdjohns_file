@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="rdjohns_file",
-    version="0.0.3",
+    version="0.0.4",
     author="David Johns",
     author_email="rakotonindrianajohns@email.com",
     description="search all directory available and list it in the array",
